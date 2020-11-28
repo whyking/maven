@@ -4,10 +4,9 @@
 
 Basic and generic Maven settings.
 
-See the artifact's documentation here:
-<span id="github-io">
-https://whyking.github.io/projects/whyking/maven/1.0.0-SNAPSHOT/
-</span>
+For the documentation, see the artifact's
+<a id="github-io" href="https://whyking.github.io/projects/whyking/maven/">site report</a>
+page.
 
 ## License
 
