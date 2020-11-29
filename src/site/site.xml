@@ -5,8 +5,8 @@
     <breadcrumbs>
       <item name="${project.name}" href="index.html"/>
     </breadcrumbs>
-    <menu name="About">
-      <item name="Description" href="index.html"/>
+    <menu name="Overview">
+      <item name="About" href="index.html"/>
     </menu>
     <menu name="Project Info">
       <item name="Project Summary" href="summary.html"/>
@@ -25,7 +25,7 @@
       <item name="Dependency Updates Report" href="dependency-updates-report.html"/>
     </menu>
     <footer><![CDATA[
-      The source code for the repository is licensed under the <a href="licenses.html#MIT_License">MIT License</a>.
+      The source code for the repository is licensed under the <a href="licenses.html#MIT_License">MIT License</a>.<br/>
       All graphical and textural assets are licensed under the <a href="licenses.html#Creative_Commons_CC0_1.0_Universal">Creative Commons CC0 1.0 Universal</a>.
     ]]></footer>
   </body>
