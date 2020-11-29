@@ -1,3 +1,24 @@
 #[[##]]# About ${project.name}
 
 ${project.description}
+
+#[[###]]# Changelog
+
+#[[####]]# [1.1.0-SNAPSHOT](https://whyking.github.io/projects/whyking/maven/1.1.0-SNAPSHOT/) - _development in progress..._
+
+* [housekeeping] Minor refactor in the build flow.
+* [housekeeping] Changelog added.
+
+#[[####]]# [1.0.0-RELEASE](https://whyking.github.io/projects/whyking/maven/1.0.0-RELEASE/) - 11/29/2020
+
+* Build flow has been set up.
+* [git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin/) added.
+* Spotify's [dockerfile-maven-plugin](https://github.com/spotify/dockerfile-maven/) added.
+* SonarSource's [sonar-maven-plugin](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-maven/) added.
+* EclEmma's [jacoco-maven-plugin](https://www.eclemma.org/jacoco/trunk/doc/maven.html) added.
+* MojoHaus' [build-helper-maven-plugin](https://www.mojohaus.org/build-helper-maven-plugin/) added.
+* MojoHaus' [properties-maven-plugin](https://www.mojohaus.org/properties-maven-plugin/) added.
+* MojoHaus' [versions-maven-plugin](https://www.mojohaus.org/versions-maven-plugin/) added.
+* Versions of the Maven plugins fixed.
+
+

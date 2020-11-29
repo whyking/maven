@@ -19,7 +19,7 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode verify deploy
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
       - name: Trigger 'Publish Maven site report' action
         uses: benc-uk/workflow-dispatch@v1
@@ -27,5 +27,5 @@ jobs:
           workflow: Publish Maven site report
           repo: whyking/whyking.github.io
           token: ${{secrets.GH_ACTIONS_TOKEN}}
-          inputs: '{"trigger-repository":"${{github.repository}}","trigger-ref":"${{github.ref}}"}'
+          inputs: '{"trigger-repository":"${{github.repository}}","trigger-ref":"${{github.sha}}"}'
 
